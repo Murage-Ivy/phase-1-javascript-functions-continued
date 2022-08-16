@@ -13,7 +13,6 @@ const mondayWork = function (activity = "go to the office") {
 console.log(mondayWork());
 
 //function scope-level
-
 function wrapAdjective(Vflair = "*") {
     return function (adjective = 'special') {
         return `You are ${Vflair}${adjective}${Vflair}!`;
